@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  .calculator {
+    width: 335px;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1b1b1b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  input[type="button"] {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s;
+  }
+  input[type="button"]:hover {
+    background-color: #ddd;
+  }
+  input[type="text"] {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: lighter; /* or use 'normal' for slightly lighter */
+  text-align: right;
+  padding: 5px;
+  box-sizing: border-box;
+  color: black;
+}
